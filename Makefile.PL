@@ -25,10 +25,11 @@ my %WriteMakefileArgs = (
     "Path::Class" => 0
   },
   "TEST_REQUIRES" => {
+    "Class::Inspector" => 0,
     "Git::Repository::Plugin::Test" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -36,6 +37,7 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Class::Inspector" => 0,
   "Git::Repository" => 0,
   "Git::Repository::Plugin::Test" => 0,
   "Path::Class" => 0,
