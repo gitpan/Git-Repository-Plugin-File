@@ -5,6 +5,7 @@ author:
 build_requires:
   Class::Inspector: 0
   Git::Repository::Plugin::Test: 0.002
+  Test::Fatal: 0
   Test::More: 0.94
 configure_requires:
   ExtUtils::MakeMaker: 6.30
@@ -20,4 +21,4 @@ requires:
   Path::Class: 0
 resources:
   repository: git://github.com/nnutter/Git-Repository-Plugin-File.git
-version: 0.003
+version: 0.004
