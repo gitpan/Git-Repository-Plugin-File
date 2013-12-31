@@ -17,8 +17,9 @@ meta-spec:
   version: 1.4
 name: Git-Repository-Plugin-File
 requires:
+  Carp: 0
   Git::Repository: 1.13
   Path::Class: 0
 resources:
   repository: git://github.com/nnutter/Git-Repository-Plugin-File.git
-version: 0.004
+version: 0.005
