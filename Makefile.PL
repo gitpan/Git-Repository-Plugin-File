@@ -21,15 +21,15 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Git::Repository::Plugin::File",
   "PREREQ_PM" => {
-    "Git::Repository" => 0,
+    "Git::Repository" => "1.13",
     "Path::Class" => 0
   },
   "TEST_REQUIRES" => {
     "Class::Inspector" => 0,
-    "Git::Repository::Plugin::Test" => 0,
-    "Test::More" => 0
+    "Git::Repository::Plugin::Test" => "0.002",
+    "Test::More" => "0.94"
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -38,10 +38,10 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Class::Inspector" => 0,
-  "Git::Repository" => 0,
-  "Git::Repository::Plugin::Test" => 0,
+  "Git::Repository" => "1.13",
+  "Git::Repository::Plugin::Test" => "0.002",
   "Path::Class" => 0,
-  "Test::More" => 0
+  "Test::More" => "0.94"
 );
 
 
